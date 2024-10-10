@@ -1,0 +1,29 @@
+{
+    "banco_dados": {
+        "nome": "meu_banco",
+        "usuario": "usuario",
+        "senha": "senha",
+        "servidor": "localhost",
+        "porta": 5432
+    },
+    "tickers": [
+        {
+            "ticker": "WEGE3",
+            "preco_alerta": 20.0
+        },
+        {
+            "ticker": "EGIE3",
+            "preco_alerta": 25.0
+        }
+    ],
+    "email": {
+        "servidor_smtp": "smtp.exemplo.com",
+        "porta_smtp": 587,
+        "usuario": "meuemail@exemplo.com",
+        "senha": "senhaemail",
+        "destinatario": "destinatario@exemplo.com"
+    },
+    "agendamento": {
+        "intervalo_minutos": 5
+    }
+}
